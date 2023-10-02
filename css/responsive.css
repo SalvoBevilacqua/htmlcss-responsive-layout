@@ -1,23 +1,13 @@
-/* HEADER */
-
+/* COMMON */
 @media screen and (max-width: 480px) {
     .desktop {
         display: none;
-    }
-    .card {
-        margin: 0 auto 1rem;
     }
 }
 
 @media screen and (min-width: 481px) {
     .desktop {
         display: none;
-    }
-    .card {
-        width: calc(100% / 3 - 3rem / 3);
-    }
-    .first {
-        width: calc(100% - (100% / 3 - 3rem / 3) - 1.5rem);
     }
 }
 
@@ -33,5 +23,34 @@
 @media screen and (min-width: 993px) {
     .container {
         width: 900px;
+    }
+}
+
+/* DEMO */
+@media screen and (min-width: 481px) {
+    .demo .card {
+        width: calc(100% / 3 - 4rem / 3);
+    }
+    .demo .first {
+        width: calc(100% - (100% / 3 - 4rem / 3) - 2rem);
+    }
+}
+
+/* PLANNING */
+@media screen and (max-width: 768px) {
+    .planning .card {
+        margin: 0 auto 1rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .planning .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .planning .card {
+        width: calc(95% / 2);
+        margin: 0;
     }
 }
