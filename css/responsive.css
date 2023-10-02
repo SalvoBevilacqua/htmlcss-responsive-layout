@@ -1,0 +1,26 @@
+/* HEADER */
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .desktop {
+        display: flex;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .container {
+        width: 900px;
+    }
+}
