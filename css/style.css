@@ -104,7 +104,10 @@ header i {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 0;
+    padding-top: 1.2rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 0;
 }
 
 .image {
