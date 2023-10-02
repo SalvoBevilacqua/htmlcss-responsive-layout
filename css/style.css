@@ -69,10 +69,10 @@ header i {
     font-size: x-large;
 }
 
-ul li:last-child {
+.button {
     color: black;
     background-color: white;
-    padding: .5rem;
+    padding: .3rem;
     border-radius: 1rem;
 }
 
@@ -137,6 +137,7 @@ ul li:last-child {
 /* ABOUT_US */
 .about_us {
     padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .about_us > div {
@@ -157,4 +158,46 @@ ul li:last-child {
 
 .margin_1rem {
     margin-bottom: 1rem;
+}
+
+/* FREE */
+.free {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: var(--background_violet);
+    color: white;
+    text-align: center;
+}
+
+.free > div {
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 350px;
+}
+
+.free h2 {
+    color: yellow;
+}
+
+.free .button {
+    padding: 1rem 3rem;
+    border-radius: 5rem;
+    color: var(--background_violet);
+}
+
+/* FOOTER */
+footer {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    color: white;
+    background-color: rgb(65, 65, 65);
+}
+
+footer > div {
+    max-width: 350px;
+}
+
+footer a {
+    color: var(--background_violet);
 }
