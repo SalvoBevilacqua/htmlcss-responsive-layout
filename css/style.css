@@ -11,6 +11,7 @@ img {
 
 :root {
     --background_header: rgb(0, 132, 253);
+    --background_demo_card: rgb(181, 221, 255);
 }
 
 /* COMMON */
@@ -38,12 +39,22 @@ body {
     align-items: center;
 }
 
+.card {
+    width: 90%;
+    text-align: center;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    /* DEBUG */
+    min-height: 250px;    
+}
+
 /* HEADER */
 
 header {
     width: 100%;
     padding: 1rem 0;
     color: white;
+    margin-bottom: 2rem;
     background-color: var(--background_header);
 }
 
@@ -61,4 +72,10 @@ ul li:last-child {
     background-color: white;
     padding: .5rem;
     border-radius: 1rem;
+}
+
+/* MAIN */
+
+.demo .card {
+    background-color: var(--background_demo_card);
 }
