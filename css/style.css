@@ -14,7 +14,7 @@ img {
 :root {
     --background_header: rgb(0, 132, 253);
     --background_demo_card: rgb(181, 221, 255);
-    --background_planning: rgb(151, 146, 228);
+    --background_violet: rgb(151, 146, 228);
 }
 
 /* COMMON */
@@ -23,9 +23,9 @@ a {
 }
 
 body {
-    /* DEBUG */
-    background-color: aquamarine;
     font-family: 'PT Sans', sans-serif;
+    /* DEBUG */
+    background-color: aquamarine;    
 }
 
 .container {
@@ -90,10 +90,71 @@ ul li:last-child {
 /* PLANNING */
 .planning {
     padding-top: 1.5rem;
-    padding-bottom: .5rem;
-    background-color: var(--background_planning);
+    padding-bottom: 1.5rem;
+    background-color: var(--background_violet);
 }
 
 .planning .container .card:last-child {
     background-color: white;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    padding-top: 1.5rem;
+}
+
+.testimonials h2 {
+    color: var(--background_violet);
+}
+
+.testimonials .card:first-child {
+    background-color: white;
+    color: black;
+}
+
+.testimonials .card {
+    background-color: var(--background_violet);
+    color: white;
+}
+
+/* BENEFITS */
+.benefits {
+    background-color: var(--background_violet);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.benefits h2 {
+    width: 100%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.benefits .card {
+    background-color: white;
+}
+
+/* ABOUT_US */
+.about_us {
+    padding-top: 1.5rem;
+}
+
+.about_us > div {
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.about_us h2 {
+    text-align: left;
+    color: var(--background_violet);
+    margin-bottom: 2rem;
+}
+
+.about_us .card {
+    border-radius: 0;
+    margin: 0;
+}
+
+.margin_1rem {
+    margin-bottom: 1rem;
 }
