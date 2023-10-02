@@ -27,12 +27,37 @@
 }
 
 /* DEMO */
+@media screen and (max-width: 480px){
+    .image {
+        width: 100%;
+        min-height: 300px;
+    }
+}
+
 @media screen and (min-width: 481px) {
+    .demo .text {
+        width: 100%;
+    }
+    .image {
+        width: 50%;
+        height: 200px;
+    }
     .demo .card {
         width: calc(100% / 3 - 4rem / 3);
     }
-    .demo .first {
+    #major {
         width: calc(100% - (100% / 3 - 4rem / 3) - 2rem);
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .image {
+        width: 50%;
+        align-self: flex-end;
+        height: 200px;
+    }
+    #major {
+        flex-direction: row;
     }
 }
 
