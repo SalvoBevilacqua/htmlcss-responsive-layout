@@ -154,6 +154,9 @@
         text-align: center;
         width: 35%;
     }
+    .about_image {
+        width: 100%;
+    }
     .about_us img {
         width: 90%;
     }

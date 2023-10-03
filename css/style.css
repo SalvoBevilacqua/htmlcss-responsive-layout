@@ -73,6 +73,7 @@ header i {
     background-color: white;
     padding: .3rem;
     border-radius: 1rem;
+    display: inline-block;
 }
 
 /* MAIN----------------- */
@@ -302,13 +303,13 @@ header i {
 
 .about_us img {
     border-radius: 50%;
-    width: 50%;
+    width: 100%;
     aspect-ratio: 1;
     object-fit: cover;
     margin-bottom: 1.5rem;
 }
 
-/* .about_image {
+.about_image {
     width: 50%;
     position: relative;
     display: inline-block;
@@ -316,11 +317,11 @@ header i {
 
 .element {
     position: absolute;
-    font-size: 4rem;
+    font-size: 3em;
     color: var(--background_violet);    
-    top: 0;
-    right: 0;
-} */
+    top: .5rem;
+    right: 1rem;
+}
 
 .about_us .button {
     color: white;
