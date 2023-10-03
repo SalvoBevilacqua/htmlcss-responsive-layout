@@ -189,10 +189,6 @@ header i {
     padding-top: 1.5rem;
 }
 
-.testimonials h2 {
-    color: var(--background_violet);
-}
-
 .testimonials .card:first-child {
     background-color: white;
     color: black;
@@ -201,6 +197,32 @@ header i {
 .testimonials .card {
     background-color: var(--background_violet);
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.testimonials h2 {
+    color: var(--background_violet);
+    font-size: 1.5rem;
+}
+
+.testimonials h3 {
+    margin-top: 1rem;
+}
+
+.testimonials img {
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 60%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.testimonials .card:first-child {
+    padding: 1.5rem 0;
 }
 
 /* BENEFITS */

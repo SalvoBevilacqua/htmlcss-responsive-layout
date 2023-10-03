@@ -84,6 +84,31 @@
     }
 }
 
+/* TESTIMONIALS */
+@media screen and (min-width: 480px) {
+    .testimonials h2 {
+        font-size: 3rem;
+    }
+    .testimonials .card {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+    .testimonials img {        
+        width: 35%;
+    }
+    .testimonials .card:first-child {
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .testimonials img {        
+        max-width: 230px;
+    }
+}
+
 /* BENEFITS */
 @media screen and (min-width: 480px) {
     .benefits .card {
