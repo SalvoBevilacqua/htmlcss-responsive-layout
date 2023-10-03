@@ -124,10 +124,36 @@
 
 /* ABOUT_US */
 @media screen and (min-width: 480px) {
+    .about_us .flex {
+        flex-direction: row;
+        gap: 0;
+    }
     .about_us h2 {
-        width: 50%;
+        font-size: 3rem;
+    }
+    .about_us h3 {
+        text-align: left;
     }
     .about_us .card {
-        width: calc(50% - 1rem);
+        width: 60%;
+    }
+    .about_us .card:last-child {
+        padding: .5rem;
+        text-align: center;
+        width: 35%;
+    }
+    .about_us img {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about_us .card {
+        width: 70%;
+    }
+    .about_us .card:last-child {
+        padding: .5rem;
+        text-align: center;
+        width: 25%;
     }
 }

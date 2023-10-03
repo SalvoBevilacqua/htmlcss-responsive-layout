@@ -268,28 +268,50 @@ header i {
 
 /* ABOUT_US */
 .about_us {
+    text-align: left;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
 
 .about_us > div {
+    flex-direction: column;
     align-items: flex-start;
     gap: 2rem;
 }
 
 .about_us h2 {
-    text-align: left;
+    font-size: 3rem;
     color: var(--background_violet);
     margin-bottom: 2rem;
 }
 
-.about_us .card {
-    border-radius: 0;
-    margin: 0;
+.about_us h3 {
+    font-size: 1.5rem;
+    color: var(--background_violet);
+    margin-bottom: 2.5rem;
 }
 
-.margin_1rem {
-    margin-bottom: 1rem;
+.about_us .card {
+    text-align: left;
+    border-radius: 0;
+}
+
+.margin_2rem {
+    margin-bottom: 2rem;
+}
+
+.about_us img {
+    border-radius: 50%;
+    width: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
+
+.about_us .button {
+    color: white;
+    padding: .3rem 1rem;
+    background-color: var(--background_violet);
 }
 
 /* FREE */
