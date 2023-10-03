@@ -227,19 +227,43 @@ header i {
 
 /* BENEFITS */
 .benefits {
+    text-align: left;
     background-color: var(--background_violet);
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
 
-.benefits h2 {
-    width: 100%;
+.benefits .card h2, .benefits .card h3 {
+    color: var(--background_violet);
+}
+
+.benefits .card h2 {
+    font-size: 3rem;
+}
+
+.benefits_title {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 2rem;
     margin-bottom: 2rem;
     text-align: center;
+    color: white;
 }
 
 .benefits .card {
     background-color: white;
+    text-align: left;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.benefits .button {
+    color: white;
+    padding: .3rem 2.5rem;
+    background-color: var(--background_violet);
 }
 
 /* ABOUT_US */
@@ -283,14 +307,27 @@ header i {
     max-width: 350px;
 }
 
+.get_started {
+    color: grey;
+}
+
+.free h3 {
+    font-size: 2rem;
+}
+
 .free h2 {
-    color: yellow;
+    color: rgb(255, 196, 0);
+    font-size: 4rem;
 }
 
 .free .button {
     padding: 1rem 3rem;
     border-radius: 5rem;
     color: var(--background_violet);
+}
+
+.free a {
+    text-decoration: underline;
 }
 
 /* FOOTER */
@@ -308,4 +345,8 @@ footer > div {
 
 footer a {
     color: var(--background_violet);
+}
+
+footer p:last-child {
+    margin-top: 3rem;
 }
