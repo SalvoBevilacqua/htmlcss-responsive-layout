@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     /* DEBUG */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 img {
@@ -25,7 +25,7 @@ a {
 body {
     font-family: 'PT Sans', sans-serif;
     /* DEBUG */
-    background-color: aquamarine;    
+    /* background-color: aquamarine;     */
 }
 
 .container {
@@ -47,7 +47,7 @@ body {
     border-radius: 1.5rem;
     margin-bottom: 1.5rem;
     /* DEBUG */
-    min-height: 250px;
+    /* min-height: 250px; */
 }
 
 /* HEADER */
@@ -307,6 +307,20 @@ header i {
     object-fit: cover;
     margin-bottom: 1.5rem;
 }
+
+/* .about_image {
+    width: 50%;
+    position: relative;
+    display: inline-block;
+}
+
+.element {
+    position: absolute;
+    font-size: 4rem;
+    color: var(--background_violet);    
+    top: 0;
+    right: 0;
+} */
 
 .about_us .button {
     color: white;

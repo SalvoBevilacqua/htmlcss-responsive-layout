@@ -18,6 +18,9 @@
     .tablet {
         display: none;
     }
+    header .button {
+        padding: .3rem .6rem;
+    }
 }
 
 @media screen and (min-width: 993px) {
@@ -58,6 +61,12 @@
     }
     #major {
         flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .demo .button {
+        margin-bottom: 3rem;
     }
 }
 
@@ -105,7 +114,10 @@
 
 @media screen and (min-width: 768px) {
     .testimonials img {        
-        max-width: 230px;
+        max-width: 200px;
+    }
+    .testimonials .card {
+        padding: 1.7rem 1rem;
     }
 }
 
