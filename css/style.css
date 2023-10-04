@@ -15,6 +15,7 @@ img {
     --background_header: rgb(0, 132, 253);
     --background_demo_card: rgb(181, 221, 255);
     --background_violet: rgb(151, 146, 228);
+    --flex_gap: 1.5rem;
 }
 
 /* COMMON */

@@ -46,10 +46,10 @@
         height: 200px;
     }
     .demo .card {
-        width: calc(100% / 3 - 4rem / 3);
+        width: calc(100% / 3 - (2 * var(--flex_gap) / 3));
     }
     #major {
-        width: calc(100% - (100% / 3 - 4rem / 3) - 2rem);
+        width: calc(2 * ((100% / 3) - (2 * var(--flex_gap) / 3)) + var(--flex_gap));
     }
 }
 
