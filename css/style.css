@@ -307,21 +307,23 @@ header i {
     width: 100%;
     aspect-ratio: 1;
     object-fit: cover;
-    margin-bottom: 1.5rem;
+    display: block;  
 }
 
 .about_image {
     width: 50%;
+    aspect-ratio: 1;
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
+    margin-bottom: 1.5rem;
 }
 
 .element {
     position: absolute;
-    font-size: 3em;
+    font-size: 2em;
     color: var(--background_violet);    
-    top: .5rem;
-    right: 1rem;
+    top: .25rem;
+    right: .5rem;
 }
 
 .about_us .button {
